@@ -1,0 +1,35 @@
+.project-container{
+  margin: 4rem 1.5rem;
+  position: relative;
+  overflow-x: hidden;
+}
+.project-container h5{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.project-content{
+  display: flex; 
+  flex-direction: column;
+  background: #130f2a;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.project-content h6{
+  font-size: 1.25rem;
+  font-weight: 550;
+  margin-bottom: 0.7rem;
+}
+.project-content a{
+  margin-bottom: 0.8rem;
+  text-decoration: none;
+  cursor: pointer;
+  color: aliceblue;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.project-content a:hover{
+  color: rgb(53, 178, 227);
+}

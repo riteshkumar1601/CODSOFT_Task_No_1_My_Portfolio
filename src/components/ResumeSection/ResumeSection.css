@@ -1,0 +1,44 @@
+.resume-container{
+  margin: 4rem 1.5rem;
+  position: relative;
+}
+.resume-container h5{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.resume-content{
+  display: inline-block;
+  background: #130f2a;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.resume-content h6{
+  font-size: 1.25rem;
+  font-weight: 550;
+  margin-bottom: 0.7rem;
+}
+.resume-content p{
+  margin-bottom: 0.5rem;
+}
+.resume-content button{
+
+  font-size: 1rem;
+  font-weight: 600;
+  color: aliceblue;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  padding: 1rem;
+  text-align: center;
+  background: rgba(22, 17, 47, 0.398);
+  backdrop-filter: blur(1rem);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.resume-content button:hover,
+.resume-content button.active{
+  background: linear-gradient(180deg, #aa94fe 0% , #7c5fe6);
+}
